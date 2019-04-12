@@ -26,7 +26,7 @@
     <string name="gestures_title">Gestures</string>
     <string name="lockscreen_title">Lock Screen</string>
     <string name="navbar_title">Navigation Bar</string>
-    <string name="notifications_title">Notifications</string>
+    <string name="notifications_title">通知</string>
     <string name="readingmode_title">Reading Mode</string>
     <string name="statusbar_title">Status Bar</string>
 	
@@ -36,10 +36,10 @@
 
     <!-- General strings -->
     <string name="ok">OK</string>
-    <string name="reset">Reset</string>
-    <string name="cancel">Cancel</string>
-    <string name="save">Save</string>
-    <string name="other">Other</string>
+    <string name="reset">リセット</string>
+    <string name="cancel">キャンセル</string>
+    <string name="save">保存</string>
+    <string name="other">その他</string>
     <string name="qs">Quick Settings</string>
 
     <!--Status Bar -->
@@ -47,9 +47,9 @@
     <string name="traffic_title">Traffic indicators</string>
     <string name="network_traffic_title">Network traffic</string>
     <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_up">Outgoing</string>
-    <string name="show_network_traffic_down">Incoming</string>
-    <string name="show_network_traffic_all">Outgoing and Incoming</string>
+    <string name="show_network_traffic_up">送信</string>
+    <string name="show_network_traffic_down">受信</string>
+    <string name="show_network_traffic_all">送受信</string>
     <string name="network_traffic_state_title">Show net activity in statusbar</string>
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
     <string name="double_tap_sleep_gesture_title">Double tap to sleep on status bar</string>
@@ -138,10 +138,10 @@
     <string name="action_last_app">Last app</string>
     <string name="action_splitscreen">Split screen</string>
     <string name="action_flashlight">Flashlight</string>
-    <string name="action_clear_notifications">Clear notifications</string>
+    <string name="action_clear_notifications">通知を消去</string>
     <string name="action_volume_panel">Volume panel</string>
     <string name="action_screen_off">Screen off</string>
-    <string name="action_notifications">Notifications</string>
+    <string name="action_notifications">通知</string>
     <string name="action_power_menu">Power menu</string>
     <string name="action_screenshot">Screenshot</string>
     <string name="action_qs_panel">QS panel</string>
@@ -174,12 +174,12 @@
     <!-- Buttons backlight timeout -->
     <string name="backlight_timeout_title">Buttons backlight timeout</string>
     <string name="backlight_timeout_on">Enabled always</string>
-    <string name="backlight_timeout_3s">3 sec</string>
-    <string name="backlight_timeout_default">5 sec (default)</string>
-    <string name="backlight_timeout_10s">10 sec</string>
-    <string name="backlight_timeout_15s">15 sec</string>
-    <string name="backlight_timeout_20s">20 sec</string>
-    <string name="backlight_timeout_30s">30 sec</string>
+    <string name="backlight_timeout_3s">3秒</string>
+    <string name="backlight_timeout_default">5秒 (既定)</string>
+    <string name="backlight_timeout_10s">10秒</string>
+    <string name="backlight_timeout_15s">15秒</string>
+    <string name="backlight_timeout_20s">20秒</string>
+    <string name="backlight_timeout_30s">30秒</string>
     <!-- Enable keys backlight-->
     <string name="button_brightness_title">Backlight</string>
     <!-- Enable keys backlight-->
@@ -224,41 +224,41 @@
     <string name="color_default">Default</string>
 
     <!-- Notifications -->
-    <string name="notification_light_settings">Notifications light</string>
+    <string name="notification_light_settings">通知ライト</string>
 
     <!-- Heads up -->
     <string name="heads_up_notifications">Heads up</string>
-    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-    <string name="add_heads_up_package">Add app</string>
+    <string name="summary_heads_up_enabled">ポップアップ通知が有効になっています</string>
+    <string name="summary_heads_up_disabled">ポップアップ通知が無効になっています</string>
+    <string name="add_heads_up_package">アプリを追加</string>
     <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
     <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
     <string name="heads_up_stoplist_title">Stoplist</string>
     <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="profile_choose_app">Choose app</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="profile_choose_app">アプリを選択</string>
+    <string name="dialog_delete_title">削除</string>
+    <string name="dialog_delete_message">選択したアイテムを削除しますか？</string>
 
     <!-- Heads up timeout -->
-    <string name="heads_up_time_out_title">Time out</string>
-    <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-    <string name="heads_up_time_out_2sec">2 seconds</string>
-    <string name="heads_up_time_out_4sec">4 seconds</string>
-    <string name="heads_up_time_out_5sec">5 seconds</string>
-    <string name="heads_up_time_out_6sec">6 seconds</string>
-    <string name="heads_up_time_out_8sec">8 seconds</string>
-    <string name="heads_up_time_out_10sec">10 seconds</string>
+    <string name="heads_up_time_out_title">タイムアウト</string>
+    <string name="heads_up_time_out_summary">ピーク通知は<xliff:g id="number">%d</xliff:g>秒間表示されます</string>
+    <string name="heads_up_time_out_2sec">2秒</string>
+    <string name="heads_up_time_out_4sec">4秒</string>
+    <string name="heads_up_time_out_5sec">5秒</string>
+    <string name="heads_up_time_out_6sec">6秒</string>
+    <string name="heads_up_time_out_8sec">8秒</string>
+    <string name="heads_up_time_out_10sec">10秒</string>
 
     <!-- Heads up snooze -->
     <string name="heads_up_snooze_title">Snooze timer</string>
     <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
     <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
     <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
-    <string name="heads_up_snooze_1min">1 minute</string>
-    <string name="heads_up_snooze_5min">5 minutes</string>
-    <string name="heads_up_snooze_10min">10 minutes</string>
-    <string name="heads_up_snooze_15min">15 minutes</string>
-    <string name="heads_up_snooze_20min">20 minutes</string>
+    <string name="heads_up_snooze_1min">1分</string>
+    <string name="heads_up_snooze_5min">5分</string>
+    <string name="heads_up_snooze_10min">10分</string>
+    <string name="heads_up_snooze_15min">15分</string>
+    <string name="heads_up_snooze_20min">20分</string>
 
     <!-- Battery light -->
     <string name="battery_light_settings">Battery charging light</string>
@@ -272,11 +272,11 @@
     <string name="battery_light_reallyfull_color">Full (100) battery</string>
 	
     <!-- Recents icon packs -->
-    <string name="recents_icon_pack_title">Icon Pack</string>
-    <string name="recents_icon_pack_summary">Apply a custom icon pack for Recents panel</string>
-    <string name="no_iconpacks_summary">No icon packs installed</string>
-    <string name="dialog_pick_iconpack_title">Pick icon pack</string>
-    <string name="default_iconpack_title">Default icons</string>
+    <string name="recents_icon_pack_title">アイコンパック</string>
+    <string name="recents_icon_pack_summary">履歴パネルにカスタムアイコンパックを適用する</string>
+    <string name="no_iconpacks_summary">アイコンパックがインストールされていません</string>
+    <string name="dialog_pick_iconpack_title">アイコンパックを選択</string>
+    <string name="default_iconpack_title">デフォルトのアイコン</string>
 	
     <!-- SystemUI Restart -->
     <string name="systemui_restart_title">SystemUI restart required</string>
